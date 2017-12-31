@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="l.c" >
+
+    <application
+        android:label="重启砖家"
+        android:icon="@drawable/l"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        <activity
+			android:screenOrientation="nosensor"
+			android:excludeFromRecents="true"
+            android:name="l.c"
+            android:label="重启" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
