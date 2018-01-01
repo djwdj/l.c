@@ -18,7 +18,7 @@ public class c extends Activity
 	LayoutParams lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT,1);
 	float d,z;
 	int w,h,p,m;
-	Animation a;
+	Animation a,aa;
 	Button b;
 	String s1="执行中……",s2="请ROOT后再试试!";
 	String[][] s=
@@ -172,25 +172,24 @@ public class c extends Activity
 						x2 = event.getX();
 						if (Math.abs(x1 - x2) > 50)
 						{
-
-							ScaleAnimation sc=new ScaleAnimation(0, 1, 0, 1, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-							sc.setDuration(1000);
-							AlphaAnimation al=new AlphaAnimation(1, 0);
-							al.setDuration(1000);
+							a=new ScaleAnimation(0, 1, 0, 1, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+							a.setDuration(1000);
+							aa=new AlphaAnimation(1, 0);
+							aa.setDuration(1000);
 
 							if (l1.isShown())
 							{
 								l1.setVisibility(View.GONE);
 								l2.setVisibility(View.VISIBLE);
-								l1.startAnimation(al);
-								l2.startAnimation(sc);
+								l1.startAnimation(aa);
+								l2.startAnimation(a);
 							}
 							else
 							{
 								l2.setVisibility(View.GONE);
 								l1.setVisibility(View.VISIBLE);
-								l2.startAnimation(al);
-								l1.startAnimation(sc);
+								l2.startAnimation(aa);
+								l1.startAnimation(a);
 							}
 						}
 						if (x1 - x2 == 0)
