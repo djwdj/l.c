@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="l.c">
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+	<uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+	<application
+		android:label="@string/l"
+		android:icon="@drawable/l"
+		android:theme="@android:style/Theme.Translucent.NoTitleBar">
+		<activity
+			android:screenOrientation="nosensor"
+			android:excludeFromRecents="true"
+			android:name="l.l">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<service
+			android:name="l.t$l"
+			android:icon="@android:drawable/ic_lock_power_off"
+			android:label="@string/l"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l00"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l00"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l01"
+			android:icon="@android:drawable/ic_lock_power_off"
+			android:label="@string/l01"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l02"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l02"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l03"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l03"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l04"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l04"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l05"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l05"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l06"
+			android:icon="@android:drawable/ic_lock_lock"
+			android:label="@string/l06"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l07"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l07"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l08"
+			android:icon="@android:drawable/ic_lock_power_off"
+			android:label="@string/l08"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l09"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l09"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l10"
+			android:icon="@android:drawable/stat_notify_sync"
+			android:label="@string/l10"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l11"
+			android:icon="@android:drawable/ic_dialog_alert"
+			android:label="@string/l11"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l12"
+			android:icon="@android:drawable/ic_dialog_alert"
+			android:label="@string/l12"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+		<service
+			android:name="l.t$l13"
+			android:icon="@android:drawable/ic_dialog_alert"
+			android:label="@string/l13"
+			android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE"/>
+			</intent-filter>
+		</service>
+	</application>
+</manifest>
